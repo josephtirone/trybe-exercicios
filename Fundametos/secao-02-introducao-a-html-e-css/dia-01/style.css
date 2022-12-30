@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+p, li{
+    color: #475550;
+    font-size: 16px;
+}
+
+#main-title{
+    color: #0a7e51;
+    line-height: 55px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 45px;
+}
+
+.session-title{
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+
+.title-color{
+    color:#11a36a;
+    text-align: center;
+
+}
+
+.button{
+    background-color: #0a7e51;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-top: 2000px;
+}
+
+.profile-images{
+    border-radius: 100%;
+}
+
+#header{
+    background-image: url("images/primeira.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
+    padding:60px 30px 40px ;
+}
+
+#header-content{
+    max-width: 600px;
+    margin-left: 75px;
+}
+
+#header-content-text{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#market{
+    padding: 6em 2em;
+    text-align: center;
+}
+
+#market-text{
+    max-width: 70%;
+    margin: auto;
+}
+
+#student-testimonial{
+    padding: 60px 20px;
+}
+
+.student-testimonial-container{
+    width: 30%;
+    display: inline-block;
+}
+
+.student-testimonial-container h3{
+    margin-top: 10px;
+}
+
+#learning{
+    background-color: rgb(226, 226, 226);
+    padding: 60px;
+    min-height: 500px;
+}
+
+#learning-left-div{
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+}
+
+#learning-right-div{
+    float: right;
+    margin-right: 10%;
+
+}
+#learning-right-div img{
+    max-width: 600px;
+}
+
+#learning ul li{
+    list-style-type: square;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+}
+
+.fundador-container{
+    padding: 6em 2em;
+    padding-left: 25px;
+    display: inline-block;
+    align-items: center;
+}
+
+.fundador{
+    max-width: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 60px 60px;
+    display: inline-block;
+    margin-left: 20px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+.fundador:first-of-type{
+    margin-left: 200px;
+}
+
+.fundador img{
+    max-width: 20%;
+    
+}
+
+.fundador-text{
+    display: inline-block;
+    max-width: 70%;
+    padding-left: 15px;
+    text-align: left;
+}
+
+*{
+    outline: 1px dotted red;
+}
+
+.fundador-text h4{
+    text-align: left;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.fundador-text h4 strong{
+    color: black;
+    font-style:bold;
+}
+
+footer{
+    background-color: #0a7e51;
+    height: 15px;
+    padding: 20px;
+    color: white;
+    text-decoration: bold;
+}
