@@ -47,10 +47,12 @@ function pintaPixel(e:Event){
 }
 
 
-for (let index = 0; index < pixel.length; index++) {
-  pixel[index].addEventListener('click', pintaPixel)
-  
-}
+const watchClick = () => {
+  redefinePixel()
+  for (let index = 0; index < pixel.length; index += 1) {
+    pixel[index].addEventListener('click', pintaPixel);
+  }
+};
 
 function tableClear(){
   for (let index = 0; index < pixel.length; index++) {
@@ -58,6 +60,8 @@ function tableClear(){
     
   }
 }
+
+watchClick()
 
 clearButton.addEventListener('click', tableClear);
 
@@ -84,6 +88,8 @@ function changeTable(e:Event){
 
     pixelBoard.style.gridTemplateColumns = `repeat(${countPixel}, 40px)`;
   }
+
+  watchClick()
 
 }
 
